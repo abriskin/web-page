@@ -3,4 +3,4 @@
 website to display information about the web design & development
 
 senior developer: adi
-senior designer: allisons
+senior designer: allison
