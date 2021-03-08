@@ -4,7 +4,7 @@ body, html {
 
 .parallax { 
     /* Image used */
-    background-image: url('img/webheader.jpg');
+    background-image: url('webheader.jpg');
 
     /* Full height */
     min-height: 700px;
@@ -24,7 +24,8 @@ body, html {
 }
 
 main {
-    height: 1000px;
+    height: 2000px;
     background-color: lightgray;
     font-size: 36px;
+    padding-top: 40%;
 }
