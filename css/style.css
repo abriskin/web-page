@@ -2,12 +2,12 @@ body, html {
     height: 100%;
 }
 
-.parallax {
+.parallax { 
     /* Image used */
-    background-image: url('web-page/img/webheader.jpg');
+    background-image: url('img/webheader.jpg');
 
     /* Full height */
-    height: 100%;
+    min-height: 700px;
 
     /* Create the parallax scrolling effect. */
     background-attachment: fixed;
@@ -16,9 +16,15 @@ body, html {
     background-size: cover;
 
     /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-    @media only screen and (max-device-width: 1366px) {
+    @media only screen and (max-device-width: 400px) {
         .parallax {
             background-attachment: scroll;
         }
     }
+}
+
+main {
+    height: 1000px;
+    background-color: lightgray;
+    font-size: 36px;
 }
