@@ -39,24 +39,51 @@ header {
 .title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-style: oblique;
-    font-size: 7.5rem;
+    font-size: 6.0rem;
     margin-bottom: 0.8%;
-    line-height: 95%;
+    line-height: 100%;
+    letter-spacing: 0.05rem;
 }
 
 .subtitle {
     font-family: 'Maitree', serif;
     font-weight: 400;
-    font-size: 3.75rem;
+    font-size: 3.5rem;
     margin-bottom: 0.25%;
+    line-height: 97.5%;
 }
 
 main {
     height: 2000px;
     background-color: white;
-    font-size: 36px;
-    margin: 1% 1% 1% 1%;
     z-index: 1;
     position: relative;
 }
+
+.body-info {
+    font-size: 3.0rem;
+    margin: 1% 1% 1% 1%;
+}
+
+a {
+    color: black;
+    background-color: rgb(210, 210, 210);
+    margin-right: -4%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.row {
+    width: 100%;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(175, 175, 175);
+}
+
