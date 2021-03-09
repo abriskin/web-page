@@ -46,11 +46,12 @@ header {
 }
 
 .subtitle {
-    font-family: 'Maitree', serif;
-    font-weight: 400;
-    font-size: 3.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 3.0rem;
     margin-bottom: 0.25%;
-    line-height: 97.5%;
+    line-height: 99%;
+    letter-spacing: 0.015rem;
 }
 
 main {
