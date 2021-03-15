@@ -79,14 +79,14 @@ main {
 
 a {
     color: black;
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(212, 212, 226);
     padding: 10px 10px 10px 10px;
     text-align: center;
     font-size: 1.75rem;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .row {
@@ -95,7 +95,7 @@ a {
 
 a:hover {
     color: black;
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(182, 182, 207);
 }
 
 .sticky {
