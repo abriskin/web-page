@@ -1,1 +1,5 @@
-document.getElementsByClassName("nav-item").style.color = "blue";
+function changeHeader() {
+    document.body.style.background = color;
+}
+
+window.addEventListener("load",function() { changeHeader('red') });
