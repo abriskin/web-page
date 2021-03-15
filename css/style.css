@@ -48,21 +48,21 @@ header {
 }
 
 .title {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 6.0rem;
-    margin-bottom: 0.8%;
-    line-height: 100%;
+    font-family: 'Faustina', serif;
+    font-weight: 500;
+    font-size: 7.0rem;
+    margin-bottom: 1.15rem;
+    line-height: 85%;
     letter-spacing: 0.05rem;
 }
 
 .subtitle {
-    font-family: 'Heebo', sans-serif;
-    font-weight: 400;
-    font-size: 3.0rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 3.25rem;
     margin-bottom: 0.25%;
-    line-height: 99%;
-    letter-spacing: 0.015rem;
+    line-height: 102.5%;
+    letter-spacing: 0.005rem;
 }
 
 main {
