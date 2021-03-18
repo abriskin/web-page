@@ -23,4 +23,4 @@ function stickyNav() {
     }
 }
 
-document.getElementsByClassName("nav-item").style.color = "blue";
+//JS for navbar color change
