@@ -13,12 +13,12 @@ body {
     scrollbar-width: none;
 }
 
-.parallax-image { 
+.parallax-image-home { 
     /* Image used */
-    background-image: url('../img/webheadercropped.jpg');
+    background-image: url('../img/webheader.jpg');
 
     /* Full height */
-    height: 55%;
+    height: 100%;
 
     /* Create the parallax scrolling effect. */
     background-attachment: fixed;
@@ -35,6 +35,39 @@ body {
 
 }
 
+.parallax-image { 
+    /* Image used */
+    background-image: url('../img/webheadercropped.jpg');
+
+    /* Full height */
+    height: 45%;
+
+    /* Create the parallax scrolling effect. */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+    @media only screen and (max-device-width: 1024px) {
+        .parallax {
+            background-attachment: scroll;
+        }
+    }
+
+}
+
+.parallax-text-home {
+    color: black;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    text-align: center;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
 .parallax-text {
     color: black;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
@@ -47,19 +80,37 @@ header {
     padding-top: 1%;
 }
 
-.title {
+.title-home {
     font-family: 'Faustina', serif;
     font-weight: 500;
-    font-size: 7.0rem;
+    font-size: 5.5rem;
     margin-bottom: 1.15rem;
     line-height: 85%;
     letter-spacing: 0.05rem;
 }
 
+.title {
+    font-family: 'Faustina', serif;
+    font-weight: 500;
+    font-size: 5.5rem;
+    margin-bottom: 1.15rem;
+    line-height: 85%;
+    letter-spacing: 0.05rem;
+}
+
+.subtitle-home {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 3.0rem;
+    margin-bottom: 0.25%;
+    line-height: 102.5%;
+    letter-spacing: 0.005rem;
+}
+
 .subtitle {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    font-size: 3.25rem;
+    font-size: 3.0rem;
     margin-bottom: 0.25%;
     line-height: 102.5%;
     letter-spacing: 0.005rem;
@@ -82,7 +133,7 @@ a {
     background-color: rgb(212, 212, 226);
     padding: 10px 10px 10px 10px;
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     text-decoration: none;
