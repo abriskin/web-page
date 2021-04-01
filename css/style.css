@@ -57,26 +57,33 @@ body {
 
 }
 
+
 .parallax-text-home {
-    color: black;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    color: rgb(13, 0, 37);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
     position: fixed;
+    padding-top: 17.5%;
     text-align: center;
     z-index: 0;
     height: 100%;
     width: 100%;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .parallax-text {
-    color: black;
+    color: rgb(30, 28, 34);
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
     position: fixed;
     z-index: 0;
+    background-color: rgba(255, 255, 255, 0.225);
+    height: 100%;
+    width: 100%;
+    padding-left: 1%;
 }
 
 header {
-    margin: 0% 1% 1% 1%;
+    margin: 0% 1% 1% 0%;
     padding-top: 1%;
 }
 
