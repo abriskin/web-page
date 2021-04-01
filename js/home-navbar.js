@@ -9,7 +9,7 @@ var navbarHome = document.getElementById("navbar-home");
 var mainText = document.getElementById("main-text");
 
 //Get the offset position of the navbar
-var stickyHome = navbarHome.offsetTop + 616;
+var stickyHome = navbarHome.offsetTop + 647;
 
 //Add the sticky class to the navbar when you reach its scroll position
 //Remove the sticky class when you leave the scroll position
