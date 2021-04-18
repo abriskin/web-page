@@ -134,17 +134,20 @@ main {
     padding: 2.5% 3.5% 5% 2.5%;
 }
 
-a {
-    color: black;
+.nav-item {
     background-color: rgb(212, 212, 226);
     padding: 10px 10px 10px 10px;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    text-decoration: none;
     font-weight: 500;
     transition: 0.4s;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: black;
 }
 
 #current {
@@ -155,9 +158,13 @@ a {
     width: 100%;
 }
 
-a:hover {
+.nav-item:hover {
     color: black;
     background-color: rgb(182, 182, 207);
+}
+
+.nav-text:hover {
+    color: black;
 }
 
 .sticky {
@@ -219,4 +226,22 @@ th {
     font-weight: 600;
     margin-bottom: 0rem;
     letter-spacing: 0rem;
+}
+
+.footer {
+    background-color: rgb(182, 182, 207);
+    height: 8%;
+    margin-top: -40px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+i {
+    color: white;
+    font-size: 4.0rem;
+    padding: 1% 0.5% 1% 0.5%;
+}
+
+.icons {
+    text-align: center;
 }
